@@ -1,0 +1,1 @@
+New-AzResourceGroup -Name RG1 -Location "eastus" 
