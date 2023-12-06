@@ -1,0 +1,1 @@
+$vm = Get-AzVM -Name $vmName -ResourceGroupName $rgName

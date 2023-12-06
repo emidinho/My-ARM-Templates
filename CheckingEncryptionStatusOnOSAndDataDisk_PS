@@ -1,0 +1,3 @@
+Get-AzVmDiskEncryptionStatus  `
+    -ResourceGroupName $rgName `
+    -VMName $vmName

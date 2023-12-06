@@ -1,0 +1,7 @@
+Set-AzVmDiskEncryptionExtension `
+    -ResourceGroupName $rgName `
+    -VMName $vmName `
+    -VolumeType All
+    -DiskEncryptionKeyVaultId $keyVault.ResourceId `
+    -DiskEncryptionKeyVaultUrl $keyVault.VaultUri `
+    -SkipVmBackup

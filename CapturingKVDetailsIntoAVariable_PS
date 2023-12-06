@@ -1,0 +1,3 @@
+$keyVault = Get-AzKeyVault `
+    -VaultName $keyVaultName `
+    -ResourceGroupName $rgName

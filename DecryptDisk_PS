@@ -1,0 +1,1 @@
+Disable-AzVMDiskEncryption -ResourceGroupName <resource-group> -VMName <vm-name> -VolumeType [All | OS | Data]

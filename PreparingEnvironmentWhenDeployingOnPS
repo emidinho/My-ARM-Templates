@@ -1,0 +1,10 @@
+$vmName = "fmdata-vm01"
+$rgName = "learn-ee8be99f-f069-4fc1-af2e-b82ed21f510e"
+$location = (Get-AzResourceGroup -name learn-ee8be99f-f069-4fc1-af2e-b82ed21f510e).location
+
+#creating VM from the above variables
+New-AzVm `
+    -ResourceGroupName $rgName `
+    -Name $vmName `
+    -Location $location `
+    -OpenPorts 3389

@@ -1,0 +1,4 @@
+New-AzKeyVault -VaultName $keyVaultname `
+    -Location $location `
+    -ResourceGroupName $rgName `
+    -EnabledForDiskEncryption
